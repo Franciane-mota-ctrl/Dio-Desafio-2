@@ -8,7 +8,7 @@ class Heroi {
     atacar() {
         let ataque = "";
 
-        // Estrutura de decisão para definir o tipo de ataque
+    
         switch (this.tipo.toLowerCase()) {
             case "mago":
                 ataque = "magia";
@@ -30,13 +30,13 @@ class Heroi {
     }
 }
 
-// Criando instâncias (objetos) da classe para testar
+
 const mago = new Heroi("Geralt", 100, "mago");
 const guerreiro = new Heroi("Arthur", 35, "guerreiro");
 const monge = new Heroi("Shaolin", 25, "monge");
 const ninja = new Heroi("Hanzo", 20, "ninja");
 
-// Chamando o método atacar para cada um
+
 mago.atacar();
 guerreiro.atacar();
 monge.atacar();
